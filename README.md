@@ -1,1 +1,1 @@
-# Ebook-audio-reader-
+ This Python code uses the PyPDF2 library to read the contents of a PDF file and the pyttsx3 library to convert the extracted text from the first page of the PDF into speech. The program initializes a PdfReader to load the PDF and retrieves the total number of pages. It then extracts the text from the first page and passes it to the text-to-speech engine (pyttsx3), which reads the content aloud using the speaker.say() function. Finally, speaker.runAndWait() ensures the speech is processed and played.
